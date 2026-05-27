@@ -12,25 +12,61 @@
 <body>
 
 <!-- HEADER -->
+<!-- ================= HEADER ================= -->
+
 <header class="header">
 
-<div class="logo">
+  <div class="logo">
 
-  <img src="logo.jpg" alt="AL-SIRAAT Logo">
+    <img src="logo.png" alt="Logo">
 
-  <div class="logo-text">
-    <h2>AL-SIRAAT</h2>
-    <span>REAL ESTATE MARKETING</span>
+    <div class="logo-text">
+      <h2>AL-SIRAAT</h2>
+      <span>REAL ESTATE MARKETING</span>
+    </div>
+
   </div>
 
-</div>
-  <nav>
+  <!-- NAVIGATION -->
+  <nav class="navbar" id="navbar">
+
     <a href="#home">Home</a>
     <a href="#about">About</a>
-    <a href="#properties">Properties</a>
+
+    <!-- DROPDOWN -->
+    <div class="dropdown">
+
+      <button class="dropbtn">
+        Properties ▾
+      </button>
+
+      <div class="dropdown-content">
+        <a href="#">Bahria Town</a>
+        <a href="#">New Lahore City</a>
+      </div>
+
+    </div>
+
     <a href="#reviews">Reviews</a>
     <a href="#contact">Contact</a>
+
+    <!-- MOBILE BUTTON -->
+    <a href="https://wa.me/923004300400"
+       target="_blank"
+       class="mobile-whatsapp">
+
+       WhatsApp
+
+    </a>
+
   </nav>
+
+  <!-- HAMBURGER -->
+  <div class="menu-toggle" id="menu-toggle">
+
+    ☰
+
+  </div>
 
 </header>
 
